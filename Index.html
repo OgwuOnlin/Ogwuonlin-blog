@@ -1,1 +1,417 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>naa</title>
+  <link rel="stylesheet" href="img/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+ <style>
+/* background animation */
+body {
+  background: linear-gradient(to bottom, #70309F, #1F8395, #FA5F16, #132F56, #EA932D, #7C94A1, #1EBBF4);
+  animation: changeBackground 10s ease-in-out infinite;
+}
+
+@keyframes changeBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* text visibility */
+.featured-article h1, .featured-article p, .recent-articles h2, .team h2, .partners h2, .partners p {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+</style>
+</head>
+<body>
+ <header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <div class="header__logo">
+      <header class="header">
+        <div class="header__title">
+          <svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="0.5" width="199" height="49" rx="25" stroke="#4caf50" fill="#ffc107"/>
+            <rect x="0.5" y="0.5" width="199" height="49" rx="25" stroke="#4caf50"/>
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="24" font-family="sans-serif" fill="#ffffff">Ogwu's blog</text>
+          </svg>
+        </div>
+      </header>
+    </div>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</body>
+</head>
+
+
+ 
+ <!-- Calendar -->
+<table class="calendar">
+  <thead>
+    <tr>
+      <th>Sun</th>
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Wed</th>
+      <th>Thu</th>
+      <th>Fri</th>
+      <th>Sat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    <!-- Additional rows -->
+  </tbody>
+</table>
+
+
+
+
+
+<!-- Grid container -->
+<div class="container">
+  <!-- Grid row -->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image1.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image2.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image3.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Grid row -->
+</div>
+
+
+
+   <!-- Grid container with gradient background -->
+<div class="container bg-gradient-primary">
+  <!-- Grid row -->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image1.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image2.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image3.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Grid row -->
+
+
+<!-- Grid container with gradient background -->
+<div class="container bg-gradient-primary">
+  <!-- Grid row -->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image1.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image2.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-4">
+      <!-- Card -->
+      <div class="card mb-4">
+        <!-- Card image -->
+        <img class="card-img-top" src="image3.jpg" alt="Card image cap">
+        <!-- Card body -->
+        <div class="card-body">
+          <!-- Card title -->
+          <h4 class="card-title">Card title</h4>
+          <!-- Card text -->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+          
+
+
+
+
+
+
+
+
+
+<!-- Digital clock----->
+<div id="clock">00:00:00</div>
+
+<script>
+  function updateClock() {
+    // Get the current time
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+
+    // Format the time as a string (e.g. "01:23:45")
+    var timeString = hours.toString().padStart(2, '0') + ':' +
+                     minutes.toString().padStart(2, '0') + ':' +
+                     seconds.toString().padStart(2, '0');
+
+    // Update the clock display
+    document.getElementById('clock').innerHTML = timeString;
+  }
+
+  // Update the clock every second
+  setInterval(updateClock, 1000);
+</script>
+
+
+
+
+<style>
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+footer a {
+  color: blue;
+}
+
+footer p.address {
+  font-family: monospace;
+}
+</style>
+<footer>
+  <p>Copyright 2021</p>
+  <p>123 Main Street</p>
+  <p>Anytown, USA 12345</p>
+  <p>123-456-7890</p>
+  <p><a href="mailto:info@example.com">info@example.com</a></p>
+  <p><a href="/terms">Terms of Use</a> | <a href="/privacy">Privacy Policy</a></p>
+</footer>
+
+
+
+
+
+
+
+
+<!-- Latest compiled JavaScript -->
+
+
+  <script src="img/bootstrap.bundle.min.js"></script>
+  <script src="script.js">const button = document.getElementById('toggle-button');
+
+button.addEventListener('click', function() {
+  const body = document.body;
+  if (body.style.backgroundColor === 'white') {
+    body.style.backgroundColor = 'black';
+  } else {
+    body.style.backgroundColor = 'white';
+  }
+});
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function() {
+    $(".navbar-toggler").click(function() {
+      $(".navbar-collapse").toggle();
+    });
+  });
+</script>
